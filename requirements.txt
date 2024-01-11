@@ -1,4 +1,4 @@
-﻿asgiref==3.7.2
+asgiref==3.7.2
 blinker==1.6.2
 click==8.1.3
 colorama==0.4.6
@@ -8,13 +8,14 @@ django-cors-headers==4.0.0
 django-taggit==4.0.0
 djangorestframework==3.14.0
 filelock==3.12.0
-
+Flask==2.3.2
 itsdangerous==2.1.2
 Jinja2==3.1.2
 MarkupSafe==2.1.2
 Pillow==9.5.0
 platformdirs==3.5.1
 pytz==2023.3
+sqlparse==0.4.4
 tzdata==2023.3
 virtualenv==20.23.0
 Werkzeug==2.3.4
