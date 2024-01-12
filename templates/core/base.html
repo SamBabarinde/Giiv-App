@@ -16,7 +16,6 @@
         <meta property="og:image" content="" />
         <!-- Favicon -->
         <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/theme/favicon.svg" />
-        <link rel="shortcut icon" type="image/x-icon" href="{% static 'images/G2.png' %}" />
 
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/fontawesome.min.js"/>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
@@ -34,7 +33,9 @@
             <header class="text-slate-700 relative flex max-w-screen-xl flex-col overflow-hidden px-4 py-4 lg:mx-auto lg:flex-row lg:items-center">
               <a href="{% url "core:index" %}" class="flex items-center whitespace-nowrap text-2xl font-black">
                 <span class="mr-2 w-8">
-               <img src="{% static 'images/G2.png' %}" alt="logo" />
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg>
                 </span>
                 Giiv App
               </a>
