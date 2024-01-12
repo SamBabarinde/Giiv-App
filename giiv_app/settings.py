@@ -67,8 +67,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'giiv_app.urls'
 
 # TEMPLATE_DIRS = (
-    os.path.join(SETTINGS_PATH, 'Templates'),
-)
+#   os.path.join(SETTINGS_PATH, 'Templates'),)
 
 TEMPLATES = [
     {
