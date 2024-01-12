@@ -65,6 +65,10 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'giiv_app.urls'
 
+TEMPLATE_DIRS = (
+    os.path.join(SETTINGS_PATH, 'templates'),
+)
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
