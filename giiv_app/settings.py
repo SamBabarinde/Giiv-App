@@ -188,3 +188,5 @@ MESSAGE_TAGS = {
         messages.WARNING: 'alert-warning',
         messages.ERROR: 'alert-danger',
  }
+
+CSRF_TRUSTED_ORIGINS = ['https://giiv-app-production.up.railway.app']
