@@ -8,8 +8,6 @@ from django.contrib.messages import constants as messages
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
-
 SETTINGS_PATH = os.path.dirname(os.path.dirname(__file__))
 
 # Quick-start development settings - unsuitable for production
@@ -68,7 +66,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'giiv_app.urls'
 
-TEMPLATE_DIRS = (
+# TEMPLATE_DIRS = (
     os.path.join(SETTINGS_PATH, 'Templates'),
 )
 
