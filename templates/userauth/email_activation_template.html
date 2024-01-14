@@ -3,6 +3,6 @@ Hi {{user.username}},
 
 Please click on the link below to activate your Giiv Account and have full access to the platform.
 
-{{protocol}}://{{ giiv-app-production.up.railway.app }}{% url "userauth:activate" uidb64=uid token=token %}
+{{protocol}}://{{ domain }}{% url "userauth:activate" uidb64=uid token=token %}
 
 {% endautoescape %}
