@@ -207,7 +207,7 @@ def confirmResetPassword(request, uidb64, token):
                     messages.error(request, f"Problem resetting password")  
 
         form = SetPasswordForm(user)
-        return render(request, 'userauth/login.html', {'form': form})
+        return render(request, 'userauth/email_reset_password.html', {'form': form})
         
     else:
         messages.error(request, "Reset link invalid or expired, please request for a new activation link")
